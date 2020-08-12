@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20sp"
+    android:paddingTop="20sp"
+    android:paddingRight="20sp"
+    android:paddingBottom="20sp"
+    tools:context=".ActivityFinal">
+
+    <TextView
+        android:id="@+id/txtPontosFinal"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="10"
+        android:gravity="center_horizontal"
+        android:text="Pontuação atual: 0"
+        android:textSize="24sp" />
+
+    <VideoView
+        android:id="@+id/vdvFinal"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="40" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:text="Você chegou ao fim da nossa trívia. Esperamos que tenha gostado. O que deseja fazer?"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="10"
+        android:text="Sair"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="10"
+        android:text="Reiniciar"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
